@@ -1,0 +1,32 @@
+{
+  "name": "server-c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node server.js",
+    "watch:server": "nodemon server.js",
+    "watch:build": "npm run build -- --watch"
+  },
+  "author": "Chris Milson",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/koa-bodyparser": "^3.0.23",
+    "@types/koa-hbs": "^1.0.1",
+    "@types/koa-router": "^7.0.22",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.1.1",
+    "nodemon": "^1.11.0",
+    "rimraf": "^2.6.1",
+    "ts-node": "^3.0.3",
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "koa-hbs": "^1.0.0-alpha.1"
+  }
+}
